@@ -1,0 +1,18 @@
+Incident_ID,Timestamp,Worker_ID,Violation_Type,Violation_Duration_Seconds,Zone,Snapshot
+1,2026-10-01 15:23:08,10,Helmet Missing,2.06,PPE Safety Zone,incident_snapshots\incident_1_worker_10.jpg
+2,2026-10-01 15:23:08,11,Helmet Missing,2.06,PPE Safety Zone,incident_snapshots\incident_2_worker_11.jpg
+3,2026-10-01 15:23:47,20,Vest Missing,2.03,PPE Safety Zone,incident_snapshots\incident_3_worker_20.jpg
+4,2026-10-01 15:24:10,37,Vest Missing,2.22,PPE Safety Zone,incident_snapshots\incident_4_worker_37.jpg
+5,2026-10-01 15:24:47,62,Helmet Missing + Vest Missing,2.89,PPE Safety Zone,incident_snapshots\incident_5_worker_62.jpg
+6,2026-10-01 15:24:52,65,Helmet Missing + Vest Missing,3.25,PPE Safety Zone,incident_snapshots\incident_6_worker_65.jpg
+7,2026-10-01 15:24:53,66,Helmet Missing + Vest Missing,2.46,PPE Safety Zone,incident_snapshots\incident_7_worker_66.jpg
+8,2026-10-01 15:24:55,67,Helmet Missing + Vest Missing,4.07,PPE Safety Zone,incident_snapshots\incident_8_worker_67.jpg
+1,2026-11-03 16:35:27,10,Helmet Missing,2.0,PPE Safety Zone,incident_snapshots\incident_1_worker_10.jpg
+2,2026-11-03 16:35:27,11,Helmet Missing + Vest Missing,2.0,PPE Safety Zone,incident_snapshots\incident_2_worker_11.jpg
+3,2026-11-03 16:35:40,11,Helmet Missing,2.04,PPE Safety Zone,incident_snapshots\incident_3_worker_11.jpg
+4,2026-11-03 16:35:58,20,Vest Missing,2.05,PPE Safety Zone,incident_snapshots\incident_4_worker_20.jpg
+5,2026-11-03 16:36:17,37,Vest Missing,2.31,PPE Safety Zone,incident_snapshots\incident_5_worker_37.jpg
+6,2026-11-03 16:36:47,60,Helmet Missing + Vest Missing,2.37,PPE Safety Zone,incident_snapshots\incident_6_worker_60.jpg
+7,2026-11-03 16:36:51,63,Helmet Missing + Vest Missing,2.47,PPE Safety Zone,incident_snapshots\incident_7_worker_63.jpg
+8,2026-11-03 16:36:53,64,Helmet Missing + Vest Missing,2.41,PPE Safety Zone,incident_snapshots\incident_8_worker_64.jpg
+9,2026-11-03 16:36:54,65,Helmet Missing + Vest Missing,2.98,PPE Safety Zone,incident_snapshots\incident_9_worker_65.jpg

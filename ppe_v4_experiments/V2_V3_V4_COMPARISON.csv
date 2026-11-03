@@ -1,0 +1,5 @@
+Model_Version,Architecture,Parameters,Precision_pct,Recall_pct,F1_Score_pct,mAP50_pct,mAP50_95_pct,Inference_ms,Total_Latency_ms,FPS,Status
+PPE_V2_Baseline,YOLO11n,2.6M,60.49,76.55,67.58,71.84,50.74,4.88,6.87,145.5,Baseline
+PPE_V3_Finetune,YOLO11n,2.6M,61.48,69.03,65.04,68.60,47.17,4.91,7.02,142.4,Regressed
+PPE_V4_ExpA_YOLO11n,YOLO11n,2.6M,59.88,71.15,65.03,70.44,47.30,4.89,6.94,144.1,Leak-Free Cleaned
+PPE_V4_ExpB_YOLO11s,YOLO11s,9.4M,65.35,70.62,67.88,73.37,51.55,8.87,11.22,89.1,BEST (New SOTA)

@@ -1,0 +1,6 @@
+Experiment,Evaluation_Set,Standard_or_Operational,Precision,Recall,F1_Score,mAP50,mAP50_95,Helmet_mAP50,NoHelmet_mAP50,NoVest_mAP50,Vest_mAP50,Inference_ms,Key_Observation
+PPE v2 Baseline (Original Roboflow Valid),Original Uncleaned (457 imgs),Historical Reported,0.599,0.765,0.6719,0.714,0.506,0.679,0.793,0.584,0.802,37.67,Artificially high mAP due to missing ground-truth annotations in valid set
+PPE v2 Baseline (Trusted Ground Truth),Trusted Clean (454 imgs),Standard (conf=0.001),0.6047,0.7666,0.6761,0.718,0.5075,0.6858,0.795,0.5879,0.8034,29.84,True baseline on verified ground truth; NoVest is the critical performance bottleneck
+PPE v3 Model (Trusted Ground Truth),Trusted Clean (454 imgs),Standard (conf=0.001),0.6104,0.695,0.6499,0.6858,0.4718,0.6474,0.7658,0.5429,0.7869,30.07,Finetuned on cleaned data with cls=1.2; significant gain on NoVest (+3.6% mAP50)
+PPE v2 Operational (conf=0.25),Trusted Clean (454 imgs),Operational (conf=0.25),0.6047,0.7666,0.6761,0.6547,0.4681,0.6262,0.7518,0.5059,0.735,37.67,Operational deployment operating point with conf=0.25 filtering
+PPE v3 Operational (conf=0.25),Trusted Clean (454 imgs),Operational (conf=0.25),0.6104,0.695,0.6499,0.6344,0.4417,0.5985,0.7133,0.492,0.7339,36.84,Operational deployment operating point; higher precision (61.0%) for CCTV alerting

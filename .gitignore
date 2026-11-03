@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.dll
+*.so
+*.dylib
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.yaml
+
+# Large Video Files & Video Artifacts
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# Datasets & Label Caches (Do not upload full raw datasets to GitHub)
+datasets/
+train/
+valid/
+ppe_v3_experiments/data/
+ppe_v4_experiments/data/train/
+*.cache
+labels.cache
+
+# Intermediate Training Plots, Checkpoints & Temporary Runs
+**/weights/epoch*.pt
+**/weights/last.pt
+**/train_batch*.jpg
+**/val_batch*.jpg
+runs/detect/val*/
+runs/detect/predict*/
+runs/detect/track/
+runs/detect/train/
+runs/detect/train-2/
+runs/detect/ppe_path_test/
+runs/detect/ppe_test/
+runs/detect/ppe_v1/
+runs/detect/v2_*/
+runs/detect/v3_*/
+ppe_v4_experiments/models/test_mem/
+
+# Temporary test incident logs
+incident_log_*_test.csv
+incident_snapshots_*_test/
+
+# IDE & OS Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Package & Distribution
+build/
+dist/
+*.egg-info/
+.eggs/

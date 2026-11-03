@@ -1,0 +1,7 @@
+path: C:/Users/Sahib Singh/Downloads/20250731-PPE2286y/20250731-ppe2286y
+train: ppe_v4_experiments/data/train/images
+val: ppe_v4_experiments/data/calib_images.txt
+test:
+
+nc: 4
+names: ['Helmet', 'NoHelmet', 'NoVest', 'Vest']

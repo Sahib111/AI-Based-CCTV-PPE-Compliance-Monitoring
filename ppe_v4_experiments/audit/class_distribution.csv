@@ -1,0 +1,9 @@
+Split,Class_ID,Class_Name,Instance_Count,Instance_Pct,Image_Count,Image_Pct,Avg_Box_Area_Pct
+train,0,Helmet,1970,40.53%,1130,61.82%,1.954%
+train,1,NoHelmet,959,19.73%,505,27.63%,1.643%
+train,2,NoVest,835,17.18%,520,28.45%,4.961%
+train,3,Vest,1096,22.55%,636,34.79%,7.621%
+valid,0,Helmet,454,38.57%,262,57.71%,2.004%
+valid,1,NoHelmet,209,17.76%,113,24.89%,1.741%
+valid,2,NoVest,223,18.95%,140,30.84%,5.013%
+valid,3,Vest,291,24.72%,174,38.33%,7.850%

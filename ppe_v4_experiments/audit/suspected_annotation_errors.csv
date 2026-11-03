@@ -1,0 +1,24 @@
+Split,Image_Name,Error_Type,Details
+train,02968_jpg.rf.8c129993ba2ee87732ccd8017052ba74.jpg,TinyBox,Class Helmet: area=0.00015
+train,02968_jpg.rf.8c129993ba2ee87732ccd8017052ba74.jpg,TinyBox,Class Helmet: area=0.00021
+train,02968_jpg.rf.8c129993ba2ee87732ccd8017052ba74.jpg,TinyBox,Class Helmet: area=0.00023
+train,02968_jpg.rf.8c129993ba2ee87732ccd8017052ba74.jpg,TinyBox,Class Helmet: area=0.00020
+train,03184_jpg.rf.6bbd5d4b6d012a76b87a9bed8d285d2c.jpg,TinyBox,Class Helmet: area=0.00024
+train,03321_jpg.rf.33076777725b39cfeb607909eb3a57cb.jpg,TinyBox,Class Helmet: area=0.00019
+train,03321_jpg.rf.33076777725b39cfeb607909eb3a57cb.jpg,TinyBox,Class Helmet: area=0.00020
+train,1027202401_jpg.rf.61c0aa5a38850eb53fec3d4e66d3c226.jpg,TinyBox,Class NoHelmet: area=0.00016
+train,1027202405_jpg.rf.bf15a99868ac32841a87c6dfb2c7d2b4.jpg,TinyBox,Class NoHelmet: area=0.00029
+train,20241027012_jpg.rf.ceaf1c791a20b330ed44218edccd13fd.jpg,TinyBox,Class NoHelmet: area=0.00029
+train,20241027012_jpg.rf.ceaf1c791a20b330ed44218edccd13fd.jpg,TinyBox,Class NoHelmet: area=0.00029
+train,20241027012_jpg.rf.ceaf1c791a20b330ed44218edccd13fd.jpg,TinyBox,Class NoHelmet: area=0.00024
+train,20241027012_jpg.rf.ceaf1c791a20b330ed44218edccd13fd.jpg,TinyBox,Class NoHelmet: area=0.00023
+train,2024102701_jpg.rf.4c5c2eea0417374c4b45c026077e86eb.jpg,TinyBox,Class NoHelmet: area=0.00029
+train,2024102701_jpg.rf.4c5c2eea0417374c4b45c026077e86eb.jpg,TinyBox,Class NoHelmet: area=0.00027
+train,2024102701_jpg.rf.4c5c2eea0417374c4b45c026077e86eb.jpg,TinyBox,Class NoHelmet: area=0.00019
+train,S__275890194_jpg.rf.e01f18168a15e9753b5e84341cfeb901.jpg,TinyBox,Class Helmet: area=0.00020
+train,S__275890194_jpg.rf.e01f18168a15e9753b5e84341cfeb901.jpg,TinyBox,Class Helmet: area=0.00020
+train,S__275890196_jpg.rf.a0cc5093c77bcac7e45e56ac3876cb02.jpg,TinyBox,Class Helmet: area=0.00016
+valid,03196_jpg.rf.092b0cae7de0b389e6e69d43317b7f3b.jpg,TinyBox,Class Helmet: area=0.00025
+valid,03349_jpg.rf.6685ac4334ab6f5715f4221fad3cb8a4.jpg,TinyBox,Class Helmet: area=0.00021
+valid,03349_jpg.rf.6685ac4334ab6f5715f4221fad3cb8a4.jpg,TinyBox,Class Helmet: area=0.00018
+valid,03349_jpg.rf.6685ac4334ab6f5715f4221fad3cb8a4.jpg,TinyBox,Class Helmet: area=0.00026

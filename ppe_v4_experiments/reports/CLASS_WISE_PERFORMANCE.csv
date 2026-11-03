@@ -1,0 +1,5 @@
+Model_Version,Helmet_mAP50_pct,NoHelmet_mAP50_pct,NoVest_mAP50_pct,Vest_mAP50_pct,Overall_mAP50_pct
+PPE_V2_Baseline,68.82,79.48,58.62,80.46,71.84
+PPE_V3_Finetune,66.86,74.96,54.39,78.17,68.60
+PPE_V4_ExpA_YOLO11n,67.08,74.13,59.43,81.14,70.44
+PPE_V4_ExpB_YOLO11s,68.98,78.91,62.32,83.28,73.37

@@ -1,0 +1,20 @@
+{
+  "person_model": "yolo11n.pt",
+  "ppe_model": "ppe_v4_experiments/models/v4_expB_yolo11s/weights/best.pt",
+  "baseline_ppe_model": "runs/detect/ppe_v2/weights/best.pt",
+  "video_path": "C:\\Users\\Sahib Singh\\Downloads\\ppe_validation.mp4",
+  "fallback_video_path": "ppe_validation_slow.mp4",
+  "output_path": "ppe_compliance_output.avi",
+  "incident_log": "incident_log.csv",
+  "snapshot_folder": "incident_snapshots",
+  "conf_threshold": 0.25,
+  "iou_threshold": 0.50,
+  "persistence_seconds": 2.0,
+  "safety_zone": [
+    [500, 1650],
+    [1650, 1650],
+    [1950, 3400],
+    [250, 3400]
+  ]
+}
+
